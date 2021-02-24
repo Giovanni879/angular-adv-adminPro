@@ -7,13 +7,12 @@ import { AuthModule } from './auth/auth.module';
 
 import { AppComponent } from './app.component';
 import { NotpagefoundComponent } from './notpagefound/notpagefound.component';
-
 // auth.module.ts
 @NgModule({
   declarations: [
     AppComponent,
     NotpagefoundComponent,
-  ],
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
